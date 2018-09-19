@@ -1,0 +1,520 @@
+{
+  "classArray" : [
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button"
+  ],
+  "keyArray" : [
+    "Slider",
+    "Slider 2",
+    "Slider 3",
+    "Slider 4",
+    "Slider 5",
+    "Slider 6",
+    "Slider 7",
+    "Slider 8",
+    "Slider 9",
+    "Slider 10",
+    "Slider 11",
+    "Slider 12",
+    "Slider 13",
+    "Slider 14",
+    "Slider 15",
+    "Slider 16",
+    "Button 1",
+    "Button 2",
+    "Button 3",
+    "Button 4",
+    "Button 5",
+    "Button 6",
+    "Button 7",
+    "Button 8",
+    "UP",
+    "DOWN",
+    "LEFT",
+    "RIGHT"
+  ],
+  "uiBuilder" : {
+    "Slider 10" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{4, 4}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [42]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.1102362204724409,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider 12" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{12, 4}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [44]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.9291338582677166,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider 14" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{20, 4}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [46]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.5118110236220472,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider 16" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{28, 4}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [48]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 4" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 8}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/note [12]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "Slider 5" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{16, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [25]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.1496062992125984,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider 9" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{0, 4}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [41]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.05511811023622047,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{0, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [21]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.7086614173228346,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 8" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{28, 8}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "ltch" : false,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/note [28]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "UP" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{32, 5}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [114]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "RIGHT" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{36, 9}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [117]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "Button 1" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{0, 8}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/note [9]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "Slider 2" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{4, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [22]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.905511811023622,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "VVGridMode" : true,
+    "Slider 6" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{20, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [26]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 5" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{16, 8}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/note [25]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "VVGridSize" : "{40, 12}",
+    "Slider 11" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{8, 4}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [43]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.1023622047244094,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider 13" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{16, 4}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [45]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.5590551181102362,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider 15" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{24, 4}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [47]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{4, 8}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "ltch" : false,
+          "tog" : false,
+          "fall" : true,
+          "src" : "\/MIDI\/ch. 0\/note [10]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "Slider 3" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{8, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [23]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "DOWN" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{36, 5}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [115]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "Slider 7" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{24, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [27]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 6" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{20, 8}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/note [26]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "Slider 4" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{12, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [24]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.4881889763779528,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 3" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{8, 8}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "ltch" : false,
+          "tog" : false,
+          "fall" : true,
+          "src" : "\/MIDI\/ch. 0\/note [11]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "LEFT" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{32, 9}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [116]",
+          "echNm2" : "Launch Control-Launch Control"
+        }
+      ]
+    },
+    "Slider 8" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{28, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [28]",
+          "echNm2" : "Launch Control-Launch Control",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 7" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{24, 8}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "Launch Control-Launch Control",
+          "ltch" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [27]",
+          "wantsEnbl" : true
+        }
+      ]
+    }
+  }
+}

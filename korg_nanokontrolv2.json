@@ -1,0 +1,962 @@
+{
+  "classArray" : [
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider"
+  ],
+  "keyArray" : [
+    "Button",
+    "Button 2",
+    "Button 3",
+    "Button 4",
+    "Button 5",
+    "Button 6",
+    "Button 7",
+    "Button 8",
+    "Button 9",
+    "Button 10",
+    "Button 11",
+    "Button 12",
+    "Button 13",
+    "Button 14",
+    "Button 15",
+    "Button 16",
+    "Button 17",
+    "Button 18",
+    "Button 19",
+    "Button 20",
+    "Button 21",
+    "Button 22",
+    "Button 23",
+    "Button 24",
+    "Button 25",
+    "Button 26",
+    "Button 27",
+    "Button 28",
+    "Button 29",
+    "Button 30",
+    "Button 31",
+    "Button 32",
+    "Button 33",
+    "Button 34",
+    "Button 35",
+    "Slider",
+    "Slider 2",
+    "Slider 3",
+    "Slider 4",
+    "Slider 5",
+    "Slider 6",
+    "Slider 7",
+    "Slider 8",
+    "Slider 9",
+    "Slider 10",
+    "Slider 11",
+    "Slider 12",
+    "Slider 13",
+    "Slider 14",
+    "Slider 15",
+    "Slider 16"
+  ],
+  "uiBuilder" : {
+    "Slider 15" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{49, 4}, {2, 12}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [7]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 14" : {
+      "mtxGrp" : "Button Group",
+      "grdFrm" : "{{20, 12}, {1, 4}}",
+      "sendEnabled" : true,
+      "toggle" : false,
+      "mtxFlg" : false,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "ltch" : false,
+          "fall" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [64]",
+          "echNm2" : "nanoKONTROL2-CTRL"
+        }
+      ]
+    },
+    "Button 21" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{32, 4}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [35]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "VVGridSize" : "{52, 16}",
+    "Button 22" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{32, 8}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [51]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 16" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{48, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [23]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.4330708661417323,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider 2" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{20, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [16]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 15" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{24, 4}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [33]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 16" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{24, 8}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [49]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 23" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{32, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [67]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 3" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{25, 4}, {2, 12}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [1]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.5118110236220472,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 30" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{44, 4}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [38]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 4" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{24, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [17]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 17" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{24, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [65]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 24" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{36, 4}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [36]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 5" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{29, 4}, {2, 12}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [2]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.4803149606299212,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 31" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{44, 8}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [54]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 6" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{28, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [18]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.7952755905511811,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 18" : {
+      "mtxGrp" : "Button Group",
+      "grdFrm" : "{{28, 4}, {1, 4}}",
+      "sendEnabled" : true,
+      "toggle" : false,
+      "mtxFlg" : false,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "ltch" : false,
+          "fall" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [34]",
+          "echNm2" : "nanoKONTROL2-CTRL"
+        }
+      ]
+    },
+    "Button 25" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{36, 8}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [52]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 7" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{33, 4}, {2, 12}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [3]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.2283464566929134,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 32" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{44, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [70]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 33" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{48, 4}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [39]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 8" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{32, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [19]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.6141732283464567,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 19" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{28, 8}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [50]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 26" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{36, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [68]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 9" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{37, 4}, {2, 12}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [4]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.3858267716535433,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 27" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{40, 4}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [37]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 34" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{48, 8}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [55]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 28" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{40, 8}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [53]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 35" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{48, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [71]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 29" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{40, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [69]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{0, 6}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [58]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{4, 6}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [59]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 3" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{0, 9}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "ltch" : false,
+          "fall" : true,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [46]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 4" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{8, 9}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [60]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 5" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 9}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [61]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 6" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{16, 9}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [62]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{21, 4}, {2, 12}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [0]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.968503937007874,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 7" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{0, 12}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [43]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 8" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{4, 12}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [44]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 9" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{8, 12}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [42]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "VVGridMode" : true,
+    "Slider 10" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{36, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [20]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.3622047244094488,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Slider 11" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{41, 4}, {2, 12}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [5]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 10" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 12}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [41]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 12" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{40, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [21]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 11" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{16, 12}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [45]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 12" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{20, 4}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [32]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 13" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{45, 4}, {2, 12}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [6]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "Button 13" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{20, 8}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [48]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Button 20" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{28, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 10\/ctrl [66]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "Slider 14" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{44, 0}, {4, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 10\/ctrl [22]",
+          "echNm2" : "nanoKONTROL2-CTRL",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    }
+  }
+}

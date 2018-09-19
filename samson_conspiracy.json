@@ -1,0 +1,1552 @@
+{
+  "classArray" : [
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "PositionElement",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Button",
+    "Slider",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "Slider",
+    "Button",
+    "Button",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider"
+  ],
+  "keyArray" : [
+    "PAD 1",
+    "PAD 2",
+    "PAD 3",
+    "PAD 4",
+    "PAD 5",
+    "PAD 6",
+    "PAD 7",
+    "PAD 8",
+    "PAD 9",
+    "PAD 10",
+    "PAD 11",
+    "PAD 12",
+    "PAD 13",
+    "PAD 14",
+    "PAD 15",
+    "PAD 16",
+    "PAD 17",
+    "PAD 18",
+    "PAD 19",
+    "PAD 20",
+    "PAD 21",
+    "PAD 22",
+    "PAD 23",
+    "PAD 24",
+    "PAD 25",
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "XY",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "CROSSFADER",
+    "CROSS SNAP",
+    "CROSS SMOOTH",
+    "PLAY",
+    "STOP",
+    "RECORD",
+    "LEFT",
+    "RIGHT",
+    "UP",
+    "DOWN",
+    "P5",
+    "P6",
+    "F9",
+    "F10",
+    "S5",
+    "S6",
+    "XY Smoothness",
+    "XY Proximity"
+  ],
+  "uiBuilder" : {
+    "CROSS SMOOTH" : {
+      "grdFrm" : "{{37, 33}, {6, 1}}",
+      "publishNormOSCQ" : true,
+      "minRange" : 0,
+      "val" : 0.482080078125,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "F4" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{26, 10}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [44]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "E7" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{21, 5}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [22]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "VVGridSize" : "{43, 34}",
+    "F5" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{11, 12}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [37]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "E8" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{26, 5}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [23]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "P1" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{6, 14}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [10]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "F6" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{16, 12}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [38]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "PAD 2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{15, 14}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [33]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "DOWN" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{39, 8}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/note [48]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "P2" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{6, 19}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 1\/ctrl [10]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "F7" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{21, 12}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [39]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "PAD 11" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{11, 22}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [22]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 6" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{11, 18}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [27]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "P3" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{6, 24}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 2\/ctrl [10]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "PAD 13" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{19, 22}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [24]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "F8" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{26, 12}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [40]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "PAD 20" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{27, 26}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [21]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 15" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{27, 22}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [26]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "P4" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{6, 29}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "echNm2" : "Conspiracy-Conspiracy",
+          "mxNote" : false,
+          "scal" : false,
+          "src" : "\/MIDI\/ch. 3\/ctrl [10]",
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "endM" : 1,
+          "endD" : 0.05,
+          "echo" : true,
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.007874015748031496,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "PAD 22" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{15, 30}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [13]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 24" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{23, 30}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [15]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 17" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{15, 26}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [18]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "F9" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{32, 19}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "Conspiracy-Conspiracy",
+          "ltch" : false,
+          "fall" : true,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [45]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "PAD 19" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{23, 26}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [20]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "P5" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{37, 21}, {5, 8}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 5\/ctrl [7]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "F10" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{37, 19}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "Conspiracy-Conspiracy",
+          "ltch" : false,
+          "fall" : true,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [47]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "P6" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{37, 14}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 5\/ctrl [10]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "XY Smoothness" : {
+      "grdFrm" : "{{0, 12}, {11, 1}}",
+      "publishNormOSCQ" : true,
+      "minRange" : 0,
+      "val" : 0.90921875,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "RIGHT" : {
+      "mtxGrp" : "Button Group",
+      "grdFrm" : "{{31, 8}, {4, 2}}",
+      "sendEnabled" : true,
+      "toggle" : false,
+      "mtxFlg" : false,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [53]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "PAD 3" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{19, 14}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [34]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "CROSS SNAP" : {
+      "mtxGrp" : "Button Group",
+      "grdFrm" : "{{31, 33}, {6, 1}}",
+      "val" : true,
+      "sendEnabled" : true,
+      "toggle" : true,
+      "mtxFlg" : false
+    },
+    "PAD 7" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{15, 18}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [28]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "STOP" : {
+      "mtxFlg" : true,
+      "grdFrm" : "{{35, 11}, {4, 2}}",
+      "mtxGrp" : "Conspiracy Play\/Pause",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "Conspiracy-Conspiracy",
+          "ltch" : false,
+          "fall" : true,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [46]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "S1" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{0, 15}, {6, 3}}",
+      "maxRange" : 1,
+      "minRange" : 0,
+      "val" : 0,
+      "markArray" : [
+        {
+          "mval" : 0.5
+        }
+      ],
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/ctrl [7]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "S2" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{0, 20}, {6, 3}}",
+      "maxRange" : 1,
+      "minRange" : 0,
+      "val" : 0,
+      "markArray" : [
+        {
+          "mval" : 0.5
+        }
+      ],
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 1\/ctrl [7]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "PLAY" : {
+      "mtxFlg" : true,
+      "grdFrm" : "{{31, 11}, {4, 2}}",
+      "mtxGrp" : "Conspiracy Play\/Pause",
+      "toggle" : true,
+      "val" : true,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "Conspiracy-Conspiracy",
+          "ltch" : false,
+          "fall" : true,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [51]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "S3" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{0, 25}, {6, 3}}",
+      "maxRange" : 1,
+      "minRange" : 0,
+      "val" : 0,
+      "markArray" : [
+        {
+          "mval" : 0.5
+        }
+      ],
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 2\/ctrl [7]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "S4" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{0, 30}, {6, 3}}",
+      "maxRange" : 1,
+      "minRange" : 0,
+      "val" : 0,
+      "markArray" : [
+        {
+          "mval" : 0.5
+        }
+      ],
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 3\/ctrl [7]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "S5" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{32, 21}, {5, 8}}",
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 4\/ctrl [7]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "XY" : {
+      "grdFrm" : "{{0, 0}, {11, 12}}",
+      "height" : 1,
+      "pubNormOSCQ" : true,
+      "width" : 1,
+      "pubNorm" : true,
+      "X" : {
+        "rcvrs" : [
+          {
+            "wantsEnbl" : true,
+            "NFX" : {
+              "itemArray" : [
+                {
+                  "className" : "Snap",
+                  "proximitySlider" : {
+                    "rcvrs" : [
+                      {
+                        "src" : "\/Control Surface 1\/XY Proximity",
+                        "wantsEnbl" : true
+                      }
+                    ],
+                    "val" : 0.1296354234218597
+                  },
+                  "enableButton" : {
+                    "val" : true
+                  }
+                },
+                {
+                  "className" : "Smooth",
+                  "smoothSlider" : {
+                    "rcvrs" : [
+                      {
+                        "src" : "\/Control Surface 1\/XY Smoothness",
+                        "wantsEnbl" : true
+                      }
+                    ],
+                    "val" : 0.9092187285423279
+                  },
+                  "enableButton" : {
+                    "val" : true
+                  }
+                }
+              ]
+            },
+            "src" : "\/MIDI\/ch. 0\/ctrl [25]",
+            "echNm2" : "Conspiracy-Conspiracy"
+          }
+        ],
+        "val" : 0.5,
+        "markArray" : [
+          {
+            "mval" : 0
+          },
+          {
+            "mval" : 0.5
+          },
+          {
+            "mval" : 1
+          }
+        ]
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "wantsEnbl" : true,
+            "NFX" : {
+              "itemArray" : [
+                {
+                  "className" : "Snap",
+                  "proximitySlider" : {
+                    "rcvrs" : [
+                      {
+                        "src" : "\/Control Surface 1\/XY Proximity",
+                        "wantsEnbl" : true
+                      }
+                    ],
+                    "val" : 0.1296354234218597
+                  },
+                  "enableButton" : {
+                    "val" : true
+                  }
+                },
+                {
+                  "className" : "Smooth",
+                  "smoothSlider" : {
+                    "rcvrs" : [
+                      {
+                        "src" : "\/Control Surface 1\/XY Smoothness",
+                        "wantsEnbl" : true
+                      }
+                    ],
+                    "val" : 0.9092187285423279
+                  },
+                  "enableButton" : {
+                    "val" : true
+                  }
+                }
+              ]
+            },
+            "src" : "\/MIDI\/ch. 0\/ctrl [24]",
+            "echNm2" : "Conspiracy-Conspiracy"
+          }
+        ],
+        "val" : 0.5,
+        "markArray" : [
+          {
+            "mval" : 0
+          },
+          {
+            "mval" : 0.5
+          },
+          {
+            "mval" : 1
+          }
+        ]
+      },
+      "sendEnabled" : true
+    },
+    "PAD 4" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{23, 14}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 1\/note [35]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "PAD 10" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{27, 18}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [31]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "S6" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{32, 14}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 4\/ctrl [10]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "PAD 12" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{15, 22}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [23]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 8" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{19, 18}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [29]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 14" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{23, 22}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [25]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "CROSSFADER" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{31, 30}, {12, 3}}",
+      "maxRange" : 1,
+      "minRange" : 0,
+      "val" : 0.3385826771653543,
+      "markArray" : [
+        {
+          "mval" : 0.5
+        }
+      ],
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Snap",
+                "proximitySlider" : {
+                  "val" : 0.0604211373390558
+                },
+                "enableButton" : {
+                  "rcvrs" : [
+                    {
+                      "src" : "\/Control Surface 1\/CROSS SNAP",
+                      "tog" : false,
+                      "wantsEnbl" : true
+                    }
+                  ],
+                  "val" : true
+                }
+              },
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "rcvrs" : [
+                    {
+                      "src" : "\/Control Surface 1\/CROSS SMOOTH",
+                      "wantsEnbl" : true
+                    }
+                  ],
+                  "val" : 0.4820800721645355
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [15]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 21" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{11, 30}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [12]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 23" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{19, 30}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [14]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 16" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{11, 26}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [17]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "VVGridMode" : true,
+    "PAD 25" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{27, 30}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [16]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "PAD 18" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{19, 26}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [19]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "XY Proximity" : {
+      "grdFrm" : "{{0, 13}, {11, 1}}",
+      "publishNormOSCQ" : true,
+      "minRange" : 0,
+      "val" : 0.1296354166666667,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "E1" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{11, 0}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [16]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "RECORD" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{39, 11}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "Conspiracy-Conspiracy",
+          "ltch" : false,
+          "fall" : true,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [49]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "E2" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{16, 0}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [17]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "PAD 1" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{11, 14}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "Conspiracy-Conspiracy",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 1\/note [32]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "E3" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{21, 0}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [18]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "PAD 5" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{27, 14}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [36]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "UP" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{39, 5}, {4, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/note [50]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "F1" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{11, 10}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [41]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "E4" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{26, 0}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [19]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "PAD 9" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{23, 18}, {4, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 1\/note [30]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ]
+    },
+    "F2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{16, 10}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [42]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "E5" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{11, 5}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [20]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "LEFT" : {
+      "mtxGrp" : "Button Group",
+      "grdFrm" : "{{31, 5}, {4, 2}}",
+      "sendEnabled" : true,
+      "toggle" : false,
+      "mtxFlg" : false,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [52]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "F3" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{21, 10}, {5, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/MIDI\/ch. 0\/note [43]",
+          "echNm2" : "Conspiracy-Conspiracy",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "E6" : {
+      "publishNormOSCQ" : true,
+      "grdFrm" : "{{16, 5}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "NFX" : {
+            "itemArray" : [
+              {
+                "className" : "Smooth",
+                "smoothSlider" : {
+                  "val" : 0.5
+                },
+                "enableButton" : {
+                  "val" : true
+                }
+              }
+            ]
+          },
+          "src" : "\/MIDI\/ch. 0\/ctrl [21]",
+          "echNm2" : "Conspiracy-Conspiracy"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    }
+  }
+}
